@@ -82,6 +82,11 @@ function canvasApp() {
             //fill screen
             context.fillStyle = '#000';
             context.fillRect(0, 0, myCanvas.width, myCanvas.height);
+
+            context.fillStyle = 'white';
+            context.font = "normal small-caps lighter 30px Courier";
+            context.fillText("Spiral Particle", 10, 50);
+
             currentParticles.push(makeParticle());
             var tempParticle;
             for (var j = 0; j < currentParticles.length - 1; j++) {

@@ -98,7 +98,7 @@ function canvasApp() {
             context.fillRect(0, 0, myCanvas.width, myCanvas.height);
 
             context.fillStyle = 'white';
-            context.font = "30px Helvetica";
+            context.font = "normal small-caps lighter 30px Courier";
             context.fillText("Foggy Tree", 10, 50);
 
             seed1(dotRadius, 270 * Math.PI/180, myCanvas.width/2, myCanvas.height);
